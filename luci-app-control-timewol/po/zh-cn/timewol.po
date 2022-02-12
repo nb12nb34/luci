@@ -1,2 +1,5 @@
 msgid "Control"
 msgstr "管控"
+
+msgid "Timewol"
+msgstr "定时唤醒"
