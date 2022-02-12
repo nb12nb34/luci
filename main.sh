@@ -9,6 +9,7 @@ git clone --depth 1 https://github.com/nb12nb34/luci-app-tencentddns.git
 
 svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-aliddns
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-control-timewol
+svn co https://github.com/lisaac/trunk/luci-app-diskman/tree/master/applications
 
 rm -rf ./*/.git & rm -f ./*/.gitattributes
 rm -rf ./*/.svn & rm -rf ./*/.github & rm -rf ./*/.gitignore
