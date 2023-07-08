@@ -13,6 +13,6 @@ svn co https://github.com/lisaac/luci-app-diskman/trunk/applications/luci-app-di
 svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
 
 
-rm -rf ./*/.git & rm -f ./*/.gitattributes
-rm -rf ./*/.svn & rm -rf ./*/.github & rm -rf ./*/.gitignore
+# rm -rf ./*/.git & rm -f ./*/.gitattributes
+# rm -rf ./*/.svn & rm -rf ./*/.github & rm -rf ./*/.gitignore
 exit 0
