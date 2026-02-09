@@ -7,5 +7,5 @@ function index()
 		return
 	end
 
-	entry({"admin", "services", "samba4"}, cbi("samba4"), _("Network Shares")).dependent = true
+	entry({"admin", "nas", "samba4"}, cbi("samba4"), _("Network Shares")).dependent = true
 end
