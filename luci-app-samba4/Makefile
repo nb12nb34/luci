@@ -8,6 +8,6 @@ LUCI_DEPENDS:=+luci-base +samba4-server
 PKG_LICENSE:=Apache-2.0
 PKG_MAINTAINER:=Andy Walsh <andy.walsh44+github@gmail.com>
 
-include ../../luci.mk
+include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
