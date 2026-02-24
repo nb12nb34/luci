@@ -1,5 +1,5 @@
 {
-	"admin/services/qbittorrent": {
+	"admin/nas/qbittorrent": {
 		"title": "qBittorrent",
 		"action": {
 			"type": "firstchild"
@@ -9,7 +9,7 @@
 			"uci": { "qbittorrent": true }
 		}
 	},
-	"admin/services/qbittorrent/config": {
+	"admin/nas/qbittorrent/config": {
 		"title": "Settings",
 		"order": 10,
 		"action": {
@@ -17,7 +17,7 @@
 			"path": "qbittorrent/config"
 		}
 	},
-	"admin/services/qbittorrent/log": {
+	"admin/nas/qbittorrent/log": {
 		"title": "Log",
 		"order": 20,
 		"action": {
