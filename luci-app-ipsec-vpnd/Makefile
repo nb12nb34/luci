@@ -8,6 +8,6 @@ define Package/luci-app-ipsec-vpnd/conffiles
 /etc/config/ipsec-vpnd
 endef
 
-include ../../luci.mk
+include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
