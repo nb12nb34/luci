@@ -1,5 +1,5 @@
 {
-	"admin/services/transmission": {
+	"admin/nas/transmission": {
 		"title": "Transmission",
 		"action": {
 			"type": "view",
